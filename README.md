@@ -1,4 +1,4 @@
-# BMT Ruby
+# Bugcrowd Methodology Taxonomy Rubygem
 
 ![build BMT](https://github.com/bugcrowd/bmt-ruby/actions/workflows/build.yml/badge.svg?branch=main)
 
