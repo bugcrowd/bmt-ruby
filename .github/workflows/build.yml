@@ -1,0 +1,27 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ruby: ['2.5', '2.6', '2.7']
+    name: Test ruby v${{ matrix.ruby }} support
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Ruby ${{ matrix.ruby }}
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: ${{ matrix.ruby }}
+    - name: Build with dependencies
+      run: |
+        gem install bundler -v 2.1
+        bundle install
+    - name: Test with rspec
+      run: |
+        bundle exec rspec spec/
+    - name: Lint with rubocop
+      run: |
+        bundle exec rubocop
