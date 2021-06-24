@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
 require 'bundler/setup'
-require 'vrt'
+require 'bmt'
 require 'pry'
 
-# An interactive console for the VRT gem
+# An interactive console for the BMT gem
 
 Pry.start
