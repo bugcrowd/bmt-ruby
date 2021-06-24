@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/bugcrowd/vrt-ruby'
   spec.license       = 'MIT'
   spec.require_paths = ['lib']
-  spec.required_ruby_version = '>= 2.4'
+  spec.required_ruby_version = '>= 2.6'
 
   spec.add_development_dependency 'bundler', '~> 2.1'
   spec.add_development_dependency 'pry', '~> 0.11'
