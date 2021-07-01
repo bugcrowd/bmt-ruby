@@ -47,7 +47,7 @@ module BMT
               .map { |filepath| File.basename(filepath, File.extname(filepath)) }
   end
 
-  # Infer the avialable versions of the BMT from the names of the files
+  # Infer the available versions of the BMT from the names of the files
   # in the repo.
   # The returned list is in order with the current version first.
   def versions
