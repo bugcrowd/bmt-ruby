@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "title": "Bugcrowd Website Testing",
+    "release_date": "2021-06-15T00:00:00+00:00",
+    "description": "Placeholder methodology",
+    "vrt_version": "10.0.1"
+  },
+  "content": {
+    "steps": [
+      {
+        "key": "information",
+        "title": "Information gathering",
+        "description": "",
+        "items": [
+          {
+            "key": "search_engine_discovery_and_reconnaissance",
+            "title": "Conduct Search Engine Discovery and Reconnaissance for Information Leakage",
+            "description": "OTG-INFO-001, WAHHM - Recon and Analysis",
+            "vrt_category": "sensitive_data_exposure"
+          }
+        ]
+      },
+      {
+        "key": "config_and_deploy_management",
+        "title": "Configuration and Deploy Management Testing",
+        "description": "",
+        "items": [
+          {
+            "key": "network_and_infrastructure",
+            "title": "Test Network/Infrastructure Configuration",
+            "description": "OTG-CONFIG-001, WAHHM - Recon and Analysis, Assess Application Hosting",
+            "vrt_category": "server_security_misconfiguration"
+          }
+        ]
+      }
+    ]
+  }
+}

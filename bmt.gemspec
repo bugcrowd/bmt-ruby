@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['federico.tagliabue@bugcrowd.com']
   spec.date          = Date.today.to_s
   spec.summary       = 'Ruby wrapper for Bugcrowd\'s Methodology Taxonomy'
-  spec.homepage      = 'https://github.com/bugcrowd/vrt-ruby'
+  spec.homepage      = 'https://github.com/bugcrowd/bmt-ruby'
   spec.license       = 'MIT'
   spec.require_paths = ['lib']
   spec.required_ruby_version = '>= 2.5'
