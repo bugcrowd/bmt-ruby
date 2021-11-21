@@ -23,6 +23,8 @@ describe BMT::Item do
       expect(subject.key).to eq('marsupial')
       expect(subject.title).to be_a(String)
       expect(subject.description).to be_a(String)
+      expect(subject.caption).to be_a(String)
+      expect(subject.tools).to be_a(String)
       expect(subject.vrt_category).to be_a(String)
       expect(subject.step).to eq(step)
     end
