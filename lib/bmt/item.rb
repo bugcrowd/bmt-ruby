@@ -1,6 +1,6 @@
 module BMT
   class Item
-    attr_reader :key, :title, :caption, :description, :tools :vrt_category, :step
+    attr_reader :key, :title, :caption, :description, :tools, :vrt_category, :step
 
     def initialize(step:, attributes:)
       @step = step
