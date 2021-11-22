@@ -15,18 +15,24 @@
           {
             "key": "marsupial",
             "title": "Is it a marsupial?",
-            "description": "Marsupials are obviously mammalian and have a pouch on their underside",
+            "caption": "Marsupials are obviously mammalian and have a pouch on their underside",
+            "description": "Check for the pouch",
+            "tools": "Eyes",
             "vrt_category": "insecure_data_storage"
           },
           {
             "key": "diet",
             "title": "Make sure it eats eucalyptus",
-            "description": "Almost no other animal can eat eucaluptus leaves, so this is a good diagnostic"
+            "caption": "Almost no other animal can eat eucaluptus leaves, so this is a good diagnostic",
+            "description": "Take some eucalyptus branches, remove some leaves and try to feed the alleged koala",
+            "tools": "Leaves and Branches"
           },
           {
             "key": "behavior",
             "title": "Does it sleep the whole day?",
-            "description": "Usually sleeps on trees"
+            "caption": "Usually sleeps on trees",
+            "description": "The alleged Koala should sleep the whole day if provided a tree.",
+            "tools": "Trees, Dawn"
           }
         ]
       },
