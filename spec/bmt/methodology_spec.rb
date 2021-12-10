@@ -38,30 +38,33 @@ describe BMT::Methodology do
 
     it 'returns a list of BMT Steps' do
       expect(subject.first).to be_a(BMT::Step)
+    end
 
+    it 'returns the expected data' do
       expect(subject).to match_array(
         [
           an_object_having_attributes(
             key: 'koala',
             title: 'Check that you have a Koala',
             description: an_instance_of(String),
+            type: 'checklist',
             items: match_array(
               [
                 an_object_having_attributes(
                   key: 'marsupial',
                   title: an_instance_of(String),
                   description: an_instance_of(String),
-                  vrt_category: an_instance_of(String)
+                  vrt_category: an_instance_of(String),
                 ),
                 an_object_having_attributes(
                   key: 'diet',
                   title: an_instance_of(String),
-                  description: an_instance_of(String)
+                  description: an_instance_of(String),
                 ),
                 an_object_having_attributes(
                   key: 'behavior',
                   title: an_instance_of(String),
-                  description: an_instance_of(String)
+                  description: an_instance_of(String),
                 )
               ]
             )
@@ -70,25 +73,33 @@ describe BMT::Methodology do
             key: 'kangaroo',
             title: 'Ensure you have a kangaroo',
             description: an_instance_of(String),
+            type: 'checklist',
             items: match_array(
               [
                 an_object_having_attributes(
                   key: 'marsupial',
                   title: an_instance_of(String),
-                  description: an_instance_of(String)
+                  description: an_instance_of(String),
                 ),
                 an_object_having_attributes(
                   key: 'tail',
                   title: an_instance_of(String),
-                  description: an_instance_of(String)
+                  description: an_instance_of(String),
                 ),
                 an_object_having_attributes(
                   key: 'jump',
                   title: an_instance_of(String),
-                  description: an_instance_of(String)
+                  description: an_instance_of(String),
                 )
               ]
             )
+          ),
+          an_object_having_attributes(
+            key: 'executive_summary',
+            title: 'Executive summary',
+            description: an_instance_of(String),
+            type: 'executive_summary',
+            items: []
           )
         ]
       )
