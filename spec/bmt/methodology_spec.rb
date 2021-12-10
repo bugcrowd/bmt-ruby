@@ -54,17 +54,17 @@ describe BMT::Methodology do
                   key: 'marsupial',
                   title: an_instance_of(String),
                   description: an_instance_of(String),
-                  vrt_category: an_instance_of(String),
+                  vrt_category: an_instance_of(String)
                 ),
                 an_object_having_attributes(
                   key: 'diet',
                   title: an_instance_of(String),
-                  description: an_instance_of(String),
+                  description: an_instance_of(String)
                 ),
                 an_object_having_attributes(
                   key: 'behavior',
                   title: an_instance_of(String),
-                  description: an_instance_of(String),
+                  description: an_instance_of(String)
                 )
               ]
             )
@@ -79,17 +79,17 @@ describe BMT::Methodology do
                 an_object_having_attributes(
                   key: 'marsupial',
                   title: an_instance_of(String),
-                  description: an_instance_of(String),
+                  description: an_instance_of(String)
                 ),
                 an_object_having_attributes(
                   key: 'tail',
                   title: an_instance_of(String),
-                  description: an_instance_of(String),
+                  description: an_instance_of(String)
                 ),
                 an_object_having_attributes(
                   key: 'jump',
                   title: an_instance_of(String),
-                  description: an_instance_of(String),
+                  description: an_instance_of(String)
                 )
               ]
             )
