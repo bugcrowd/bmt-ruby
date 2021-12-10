@@ -46,4 +46,23 @@ describe BMT::Step do
       )
     end
   end
+
+  context 'with an executive_summary step type' do
+    let(:attributes) { methodology_json.dig('content', 'steps', 2) }
+
+    subject do
+      described_class.new(
+        methodology: methodology,
+        attributes: attributes
+      )
+    end
+
+    it 'returns the correct type' do
+      expect(subject.type).to eq 'executive_summary'
+    end
+
+    it 'returns no items' do
+      expect(subject.items).to be_empty
+    end
+  end
 end

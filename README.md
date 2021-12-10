@@ -14,4 +14,9 @@ gem 'bmt-ruby'
 
 ## Usage
 
-TODO: Write usage instructions here
+For convenience in development, we provide a utility for spinning up a
+playground for playing with the gem. You can invoke it with:
+
+```bash
+bin/console
+```

@@ -11,6 +11,7 @@
         "key": "koala",
         "title": "Check that you have a Koala",
         "description": "# Does it look like one?\nIt is easy to find out.\n",
+        "type": "checklist",
         "items": [
           {
             "key": "marsupial",
@@ -40,6 +41,7 @@
         "key": "kangaroo",
         "title": "Ensure you have a kangaroo",
         "description": "Does it look like one?",
+        "type": "checklist",
         "items": [
           {
             "key": "marsupial",
@@ -57,6 +59,12 @@
             "description": "Over very short distances kangaroos will use their forepaws to balance on the ground and swing their legs forward. For longer distance movement, their jumping locomotion is unmistakeable."
           }
         ]
+      },
+      {
+        "key": "executive_summary",
+        "title": "Executive summary",
+        "description": "The executive summary should be written with a high-level view of both risk and business impact. It should be concise and clear, therefore it is important to use plain English. This ensures that non-technical readers can gain insight into security concerns outlined in your report.",
+        "type": "executive_summary"
       }
     ]
   }

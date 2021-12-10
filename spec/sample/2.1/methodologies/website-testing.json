@@ -11,6 +11,7 @@
         "key": "information",
         "title": "Information gathering",
         "description": "",
+        "type": "checklist",
         "items": [
           {
             "key": "search_engine_discovery_and_reconnaissance",
@@ -24,6 +25,7 @@
         "key": "config_and_deploy_management",
         "title": "Configuration and Deploy Management Testing",
         "description": "",
+        "type": "checklist",
         "items": [
           {
             "key": "network_and_infrastructure",
