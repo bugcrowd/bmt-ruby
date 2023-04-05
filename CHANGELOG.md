@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Added new methodology for mobile_android
 - Added new methodology for binaries
 - Added new methodology for network
+- Added new methodology for Api Testing
 
 ### Changed
 
