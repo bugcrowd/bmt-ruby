@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.name          = 'bmt'
   spec.version       = Bmt::VERSION
   spec.platform      = Gem::Platform::RUBY
-  spec.authors       = ['Federico Tagliabue']
-  spec.email         = ['federico.tagliabue@bugcrowd.com']
+  spec.authors       = ['Federico Tagliabue', 'Andy White']
+  spec.email         = ['federico.tagliabue@bugcrowd.com', 'arcwhite@arcwhite.org']
   spec.date          = Date.today.to_s
   spec.summary       = 'Ruby wrapper for Bugcrowd\'s Methodology Taxonomy'
   spec.homepage      = 'https://github.com/bugcrowd/bmt-ruby'
