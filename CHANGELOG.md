@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 - AI LLM Testing Methodology
 
-## [0.5.2] 
+## [0.5.2] - 2023-05-08
 
 ### Changed
 - Title of API Methodology updated
