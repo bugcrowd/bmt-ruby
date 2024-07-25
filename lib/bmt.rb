@@ -20,14 +20,14 @@ module BMT
   # returns a Methodology object given a key and a version
   def find(key, version: current_version)
     raise VersionNotFoundError unless versions.include?(version)
-    raise MethodologyNotFoundError unless methodology_keys(version: version).include?(key)
+    raise MethodologyNotFoundError unless methodology_keys(version:).include?(key)
 
     @methodologies[version].nil? && @methodologies[version] = {}
 
     @methodologies[version][key] ||= Methodology.new(
-      key: key,
-      version: version,
-      attributes: methodology_json(key, version: version)
+      key:,
+      version:,
+      attributes: methodology_json(key, version:)
     )
 
     @methodologies[version][key]
@@ -55,7 +55,7 @@ module BMT
   end
 
   def methodology_json(key, version: current_version)
-    JSON.parse(methodology_pathname(key, version: version).read)
+    JSON.parse(methodology_pathname(key, version:).read)
   end
 
   def methodology_pathname(key, version: current_version)

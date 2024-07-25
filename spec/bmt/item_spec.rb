@@ -12,8 +12,8 @@ describe BMT::Item do
   describe '#new' do
     subject do
       described_class.new(
-        step: step,
-        attributes: attributes
+        step:,
+        attributes:
       )
     end
 

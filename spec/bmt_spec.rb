@@ -22,7 +22,7 @@ describe BMT do
       subject { described_class.methodology_keys }
 
       it 'returns methodologies for the latest version' do
-        is_expected.to match_array(['website-testing', 'outback-animal-testing'])
+        is_expected.to match_array(%w[website-testing outback-animal-testing])
       end
     end
 
@@ -51,7 +51,7 @@ describe BMT do
     end
 
     context 'specifing version' do
-      subject(:methodology) { described_class.find(key, version: version) }
+      subject(:methodology) { described_class.find(key, version:) }
 
       let(:key) { 'website-testing' }
 

@@ -6,7 +6,7 @@ describe BMT::Methodology do
   describe '#new' do
     subject do
       described_class.new(key: methodology_key,
-                          version: version,
+                          version:,
                           attributes: methodology_json)
     end
 
@@ -28,7 +28,7 @@ describe BMT::Methodology do
   describe '#steps' do
     subject do
       described_class.new(key: methodology_key,
-                          version: version,
+                          version:,
                           attributes: methodology_json).steps
     end
 

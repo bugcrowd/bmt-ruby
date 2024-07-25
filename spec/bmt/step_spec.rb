@@ -11,8 +11,8 @@ describe BMT::Step do
   describe '#new' do
     subject do
       described_class.new(
-        methodology: methodology,
-        attributes: attributes
+        methodology:,
+        attributes:
       )
     end
 
@@ -29,8 +29,8 @@ describe BMT::Step do
   describe '#items' do
     subject do
       described_class.new(
-        methodology: methodology,
-        attributes: attributes
+        methodology:,
+        attributes:
       ).items
     end
 
@@ -52,8 +52,8 @@ describe BMT::Step do
 
     subject do
       described_class.new(
-        methodology: methodology,
-        attributes: attributes
+        methodology:,
+        attributes:
       )
     end
 
