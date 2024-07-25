@@ -6,7 +6,7 @@ RSpec.configure do |config|
     c.syntax = :expect
   end
 
-  config.before(:each) do
+  config.before do
     # The following adds a new, test-only BMT versions
     stub_const('BMT::DATA_DIR', Pathname.new('spec/sample'))
   end

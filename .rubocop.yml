@@ -1,5 +1,6 @@
 AllCops:
-  TargetRubyVersion: 2.5
+  TargetRubyVersion: 3.1
+  NewCops: enable
 
 Style/Documentation:
   Enabled: false
@@ -7,12 +8,11 @@ Style/Documentation:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
-  IgnoreCopDirectives: true
 
 Metrics/BlockLength:
-  ExcludedMethods:
+  AllowedMethods:
     - configure
     - context
     - define
