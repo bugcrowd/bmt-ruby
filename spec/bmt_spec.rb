@@ -5,7 +5,7 @@ describe BMT do
     subject { described_class.versions }
 
     it 'return all of the versions in the filesystem in reverse semver order' do
-      is_expected.to eq(['2.1', '1.0'])
+      expect(subject).to eq(['2.1', '1.0'])
     end
   end
 
@@ -13,7 +13,7 @@ describe BMT do
     subject { described_class.current_version }
 
     it 'return the most recent version number for the vrt' do
-      is_expected.to eq('2.1')
+      expect(subject).to eq('2.1')
     end
   end
 
@@ -22,7 +22,7 @@ describe BMT do
       subject { described_class.methodology_keys }
 
       it 'returns methodologies for the latest version' do
-        is_expected.to match_array(%w[website-testing outback-animal-testing])
+        expect(subject).to match_array(%w[website-testing outback-animal-testing])
       end
     end
 
@@ -30,7 +30,7 @@ describe BMT do
       subject { described_class.methodology_keys(version: '1.0') }
 
       it 'returns methodologies for the specified version' do
-        is_expected.to match_array(['website-testing'])
+        expect(subject).to match_array(['website-testing'])
       end
     end
   end

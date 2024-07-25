@@ -8,12 +8,11 @@ Style/Documentation:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
-  IgnoreCopDirectives: true
 
 Metrics/BlockLength:
-  ExcludedMethods:
+  AllowedMethods:
     - configure
     - context
     - define

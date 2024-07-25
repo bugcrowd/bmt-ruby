@@ -43,7 +43,7 @@ module BMT
       DATA_DIR.join(version, 'methodologies').entries
               .map(&:basename)
               .map(&:to_s)
-              .select { |dirname| dirname =~ /json/ }
+              .grep(/json/)
               .map { |filepath| File.basename(filepath, File.extname(filepath)) }
   end
 
@@ -67,6 +67,6 @@ module BMT
     DATA_DIR.entries
             .map(&:basename)
             .map(&:to_s)
-            .select { |dirname| dirname =~ /^[0-9]+\.[0-9]/ }.sort
+            .grep(/^[0-9]+\.[0-9]/).sort
   end
 end
