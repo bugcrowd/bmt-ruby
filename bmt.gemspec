@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Ruby wrapper for Bugcrowd\'s Methodology Taxonomy'
   spec.homepage      = 'https://github.com/bugcrowd/bmt-ruby'
   spec.license       = 'MIT'
-  spec.files         = Dir['lib/**/*.{rb,json}']
+  spec.files         = Dir['lib/**/*']
   spec.require_paths = ['lib']
   spec.required_ruby_version = '>= 3.1'
 
