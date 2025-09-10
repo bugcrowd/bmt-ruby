@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/)
 
+## [0.8.0] - 2025-09-10
+
+### Added
+- Hardware Testing Methodology
+
+### Changed
+- Updated AI LLM Testing Methodology with new content and structure
+- Updated API Testing Methodology with enhanced testing procedures
+
 ## [0.7.0] - 2025-01-24
 
 ### Added
