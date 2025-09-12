@@ -3,6 +3,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/)
 
+## [0.9.0] - 2025-09-12
+
+### Added
+- New 0.9 submodule with latest methodology taxonomy (SHA: 2827e2ce4421c5deb032e90702cff509a9540a91)
+- Support for version-specific methodology access
+- Hardware Testing Methodology (available in 0.9 submodule)
+
+### Changed
+- Updated AI LLM Testing Methodology with new content and structure (in 0.9 submodule)
+- Updated API Testing Methodology with enhanced testing procedures (in 0.9 submodule)
+- Maintained 0.1 submodule for backward compatibility
+
 ## [0.8.0] - 2025-09-10
 
 ### Added
