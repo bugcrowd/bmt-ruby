@@ -3,6 +3,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/)
 
+## [0.10.0] - 2025-02-18
+
+### Added
+- New 0.10 submodule with latest methodology taxonomy including 3 new methodologies from PR #26
+- Blockchain Testing Methodology
+- Cloud Infrastructure Testing Methodology
+- Container Security Testing Methodology
+
+### Changed
+- Updated Mobile iOS Methodology
+- Maintained 0.1 and 0.9 submodules for backward compatibility
+
 ## [0.9.0] - 2025-09-12
 
 ### Added
