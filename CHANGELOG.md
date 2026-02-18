@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Container Security Testing Methodology
 
 ### Changed
+- Updated Mobile iOS Methodology
 - Maintained 0.1 and 0.9 submodules for backward compatibility
 
 ## [0.9.0] - 2025-09-12
