@@ -1,3 +1,5 @@
 module Bmt
-  VERSION = '0.10.0'.freeze
+  # START Contributions by Cursor.
+  VERSION = '0.10.1'.freeze
+  # END Cursor.
 end
