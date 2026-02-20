@@ -71,6 +71,6 @@ module BMT
             .map(&:to_s)
             # START Contributions by Cursor.
             .grep(/^[0-9]+\.[0-9]/)
-            # END Cursor.
+    # END Cursor.
   end
 end
