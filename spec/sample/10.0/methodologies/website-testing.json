@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "Website Testing v10",
+    "release_date": "2026-02-20T00:00:00+00:00",
+    "description": "Placeholder methodology for version sorting test",
+    "vrt_version": "10.0.0"
+  },
+  "content": {
+    "steps": [
+      {
+        "key": "information",
+        "title": "Information gathering",
+        "description": "",
+        "type": "checklist",
+        "items": [
+          {
+            "key": "search_engine_discovery",
+            "title": "Conduct Search Engine Discovery",
+            "description": "Placeholder item",
+            "vrt_category": "sensitive_data_exposure"
+          }
+        ]
+      }
+    ]
+  }
+}

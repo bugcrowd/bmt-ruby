@@ -51,7 +51,9 @@ module BMT
   # in the repo.
   # The returned list is in order with the current version first.
   def versions
-    @versions ||= json_dir_names.sort.reverse!
+    # START Contributions by Cursor.
+    @versions ||= json_dir_names.sort_by { |v| Gem::Version.new(v) }.reverse!
+    # END Cursor.
   end
 
   def methodology_json(key, version: current_version)
@@ -67,6 +69,8 @@ module BMT
     DATA_DIR.entries
             .map(&:basename)
             .map(&:to_s)
-            .grep(/^[0-9]+\.[0-9]/).sort
+            # START Contributions by Cursor.
+            .grep(/^[0-9]+\.[0-9]/)
+            # END Cursor.
   end
 end
