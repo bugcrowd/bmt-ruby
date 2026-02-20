@@ -4,16 +4,18 @@ describe BMT do
   describe '#versions' do
     subject { described_class.versions }
 
+    # START Contributions by Cursor.
     it 'return all of the versions in the filesystem in reverse semver order' do
-      expect(subject).to eq(['2.1', '1.0'])
+      expect(subject).to eq(['10.0', '2.1', '1.0'])
     end
+    # END Cursor.
   end
 
   describe '#current_version' do
     subject { described_class.current_version }
 
     it 'return the most recent version number for the vrt' do
-      expect(subject).to eq('2.1')
+      expect(subject).to eq('10.0')
     end
   end
 
