@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
   spec.files         = Dir['lib/**/*.{rb,json}']
   spec.require_paths = ['lib']
-  spec.required_ruby_version = '>= 3.4'
+  spec.required_ruby_version = '>= 3.1'
 
   spec.metadata = {
     'homepage_uri' => 'https://github.com/bugcrowd/bmt-ruby',
