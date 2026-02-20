@@ -15,7 +15,7 @@ describe BMT do
     subject { described_class.current_version }
 
     it 'return the most recent version number for the vrt' do
-      expect(subject).to eq('2.1')
+      expect(subject).to eq('10.0')
     end
   end
 
