@@ -7,3 +7,6 @@
 [submodule "lib/data/0.10"]
 	path = lib/data/0.10
 	url = git@github.com:bugcrowd/methodology-taxonomy.git
+[submodule "lib/data/0.11"]
+	path = lib/data/0.11
+	url = git@github.com:bugcrowd/methodology-taxonomy.git
